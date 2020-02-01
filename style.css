@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  background-color: #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}

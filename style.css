@@ -12,9 +12,14 @@ body {
 }
 
 #box {
-  background-color: #ccc;
+  background-color: #eee;
   border-radius: 6px;
   width: 100%;
   max-width: 450px;
+  height: 200px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

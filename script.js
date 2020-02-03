@@ -1,9 +1,9 @@
 let game = {
   questions: [
-    { question: "Adiniz Huseyndir", answer: "y" },
-    { question: "Adiniz Orxandir", answer: "y" },
-    { question: "Adiniz Firuzdur", answer: "y" },
-    { question: "Adiniz Elvindir", answer: "n" }
+    { question: "Rusiyanin paytaxtdi Istanbuldur?", answer: "n" },
+    { question: "1 deqiqede 120 saniye var?", answer: "n" },
+    { question: "Su 100 derece temperaturda qaynayir", answer: "y" },
+    { question: "Yer kuresi Guneshe en yaxin planetdir?", answer: "n" }
   ],
 
   currentStap: 0,
@@ -47,7 +47,7 @@ let game = {
 window.onkeyup = e => {
   if (e.key === "y" || e.key === "n") {
     if (e.key === game.questions[game.currentStap].answer) {
-      alert("dogurud");
+      alert("Dogurudur");
       game.score++;
     } else {
       alert("Yanlisdir");
